@@ -1,0 +1,12 @@
+final_robot.c
+-I ./../Learn/Simple Libraries/Motor/libservo
+-L ./../Learn/Simple Libraries/Motor/libservo
+>compiler=C
+>memtype=cmm main ram compact
+>optimize=-Os
+>-m32bit-doubles
+>-fno-exceptions
+>defs::-std=c99
+>-lm
+>linker::-lservo
+>BOARD::ACTIVITYBOARD
